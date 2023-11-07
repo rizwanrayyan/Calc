@@ -24,8 +24,8 @@ Validate the HTML and CSS code.
 ### Step 6:
 Publish the website in the given URL.
 
-## PROGRAM :
-----
+## PROGRAM 
+```
 <!DOCTYPE html>
 <html>
   <head>
@@ -257,13 +257,16 @@ Publish the website in the given URL.
         document.getElementById("display").value = -parseFloat(value);
       }
 
+      // This function handles keyboard input
       function handleKeyPress(event) {
+        // Check for Enter key to evaluate the expression
         if (event.key === "Enter") {
           calculateResult();
         }
       }
 
       function handleKeyDown(event) {
+        // Check for Backspace key to clear the last character
         if (event.key === "Backspace") {
           const display = document.getElementById("display");
           display.value = display.value.slice(0, -1);
@@ -272,11 +275,12 @@ Publish the website in the given URL.
     </script>
   </body>
 </html>
-----
+```
 
 ## OUTPUT:
 
-![Alt text](<Screenshot 2023-11-07 105713.png>)
+![image](https://github.com/rizwanrayyan/Calc/assets/121215820/782ec796-089f-4633-b1cd-fbc057a651c6)
+
 
 ## RESULT:
 The program for designing a standard calculator using HTML and CSS is executed successfully.
